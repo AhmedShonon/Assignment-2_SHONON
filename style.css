@@ -539,9 +539,67 @@ body {
     width: 100%; /* Make each container take full width on small screens */
     margin-bottom: 10px; /* Add some margin at the bottom */
   }
+
   /* .ok {
     font-size: 6000px;
     margin-top: 15px;
     margin-left: 15px;
   } */
+
+  /* Run an Extra Mile Easily */
+  .run_extra {
+    flex-direction: column;
+  }
+  .run_easily {
+    background-color: #444040d6;
+    border-radius: 16px;
+    padding: 32px;
+    padding-left: 50px;
+    height: 500px;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: -35px;
+  }
+  .run_title {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    font-size: 35px;
+    /* border: 2px solid white; */
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5px;
+  }
+  .run_subtitle {
+    font-family: "Inter", sans-serif;
+    color: #dfd3d38f;
+    font-weight: 450;
+    font-size: 14px;
+    /* border: 2px solid green; */
+    width: 94%;
+  }
+  .img_three_parent {
+    position: relative;
+  }
+  .img_three {
+    /* border: 2px solid pink; */
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    right: -5%;
+    top: -200px;
+  }
+  .join_now_two {
+    width: 95%;
+    height: 50px;
+    border-radius: 2rem;
+    background-color: #e6533c;
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
 }
