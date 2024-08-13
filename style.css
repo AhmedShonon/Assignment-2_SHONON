@@ -327,6 +327,67 @@ body {
   margin-bottom: 10px;
   background-color: #000000;
 }
+/* Run an Extra mile Easily */
+.run_easily {
+  background-color: #444040d6;
+  border-radius: 16px;
+  padding: 32px;
+  padding-left: 50px;
+  height: 300px;
+  display: flex;
+  margin-top: 50px;
+  width: 1050px;
+
+  /* border: 2px solid pink; */
+  margin-right: 10%;
+}
+.run_extra {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.run_title {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: left;
+  font-size: 45px;
+  /* border: 2px solid white; */
+  width: 40%;
+  margin-bottom: 5px;
+}
+.run_subtitle {
+  font-family: "Inter", sans-serif;
+  color: #dfd3d38f;
+  font-weight: 450;
+  font-size: 16px;
+  /* border: 2px solid green; */
+  width: 38%;
+}
+.img_three_parent {
+  position: relative;
+}
+.img_three {
+  /* border: 2px solid pink; */
+  border-radius: 20px;
+  position: absolute;
+  height: 270px;
+  width: 250;
+  right: 25%;
+  top: 10%;
+  margin: -10px 15px 15px 0px;
+}
+.join_now_two {
+  width: 25%;
+  height: 50px;
+  border-radius: 2rem;
+  background-color: #e6533c;
+  color: #ffffff;
+  font-weight: 550;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 0px;
+}
 /* responsive design */
 @media screen and (max-width: 576px) {
   .right_nav {
