@@ -376,7 +376,11 @@ body {
   }
 
   .get-body {
+    display: block;
+    /* border: 2px solid yellow; */
     font-size: 40px;
+    width: 85%;
+    height: 240px;
   }
 
   .section {
