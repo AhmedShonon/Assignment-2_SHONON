@@ -241,12 +241,12 @@ body {
 }
 .f_workout {
   position: absolute;
-  background-color: #3030308c;
+  background-color: #605e5e98;
   color: #ffffff;
   width: 13%;
   height: 100px;
   border-radius: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.078);
+  border: 1px solid rgba(255, 255, 255, 0);
   left: 76%;
   top: 41%;
 }
@@ -332,17 +332,26 @@ body {
   .right_nav {
     display: none;
   }
+  .nav-title {
+    margin-left: -45px;
+  }
   .bars {
     display: block;
-    margin-left: 200px;
+    margin-left: 220px;
     cursor: pointer;
+  }
+  .get-body {
+    margin-left: -45px;
+  }
+  .section {
+    margin-left: -45px;
   }
   .shape_body {
     flex-direction: column;
-    width: 400px;
+    width: 300px;
   }
   .bdy {
-    margin-right: 6px;
+    margin-right: 0px;
     height: 800px;
     background-image: linear-gradient(
       to right,
@@ -378,61 +387,69 @@ body {
     display: none;
   }
   .join_now {
+    font-family: "Inter", sans-serif;
     display: block;
-    width: 40%;
-    height: 50px;
+    width: 80%;
+    height: 55px;
     border-radius: 2rem;
     background-color: #e6533c;
     color: #ffffff;
     font-weight: 550;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
+    margin-left: -45px;
     margin-right: 0px;
   }
   .download {
-    width: 40%;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    font-size: 19px;
+    padding: 5px;
+    height: 55px;
+    margin-right: -35px;
   }
   .f_workout {
-    position: absolute;
-    background-color: #504d4d51;
-    color: #ffffff;
-    width: 40%;
-    height: 90px;
+    font-family: "Inter", sans-serif;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
     border-radius: 0.8rem;
     border: 1px solid rgba(255, 255, 255, 0.208);
     left: 60%;
-    top: 100%;
+    top: 110%;
   }
   .vd_t {
     font-size: small;
   }
   .vdo_tutor {
-    width: 45%;
-    top: 130%;
-    left: 15%;
+    width: 40%;
+    height: 15%;
+    top: 140%;
+    left: 9%;
   }
   .btn {
     width: 100%;
-    gap: 10px;
+    gap: 15px;
   }
 
-  .download {
+  /* .download {
     width: 45%;
     margin-right: 30px;
-  }
+  } */
   .habit_title {
     width: 120%;
     margin-top: 0px;
     font-size: 35px;
     /* border: 2px solid wheat; */
-    margin-left: -10px;
+    margin-left: -45px;
   }
   .sub_title {
     /* border: 2px solid white; */
-    width: 130%;
+    width: 120%;
     font-size: 17px;
-    margin-left: -30px;
+    margin-left: -45px;
   }
   .mtpw {
     flex-direction: column;
@@ -444,17 +461,22 @@ body {
     /* display: block; */
     width: 65%;
     margin-top: 5px;
-    margin-left: 75px;
+    margin-left: 50px;
     border: 3px solid #2c2c2e;
   }
   .small_title {
-    margin-left: 60px;
+    margin-left: 0px;
   }
   .sub_sub_title {
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .parent {
     width: 100%; /* Make each container take full width on small screens */
     margin-bottom: 10px; /* Add some margin at the bottom */
   }
+  /* .ok {
+    font-size: 6000px;
+    margin-top: 15px;
+    margin-left: 15px;
+  } */
 }
