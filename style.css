@@ -1276,6 +1276,11 @@ hr.line {
     text-align: center;
     margin-left: -13px;
   }
+  .chart_calculator {
+    background-color: #2c2c2e;
+    width: 440px;
+    height: 720px;
+  }
   .six_pics {
     background-color: #444040d6;
     border-radius: 16px;
