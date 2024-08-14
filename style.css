@@ -1057,8 +1057,7 @@ th {
     justify-content: center;
     margin-left: 25px;
   }
-  .bmi_subtitle2{
-     
+  .bmi_subtitle2 {
     font-family: "Inter", sans-serif;
     color: #dfd3d38f;
     font-weight: 450;
@@ -1069,8 +1068,6 @@ th {
     text-align: left;
     align-items: center;
     text-align: center;
-    
-  }
   }
   .six_pics {
     background-color: #444040d6;
