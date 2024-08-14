@@ -1026,15 +1026,15 @@ th {
     margin-top: 800px;
   }
   .bmi_title {
-    text-align: center;
+    text-align: left;
   }
   .bmi_subtitle {
-    text-align: center;
+    text-align: left;
     /* border: 2px solid white; */
     justify-content: center;
     height: 100px;
-    width: 110%;
-    margin-left: 21px;
+    width: 356px;
+    margin-left: -40px;
   }
   .first_three {
     display: flex;
@@ -1093,11 +1093,11 @@ th {
   }
   .cameron {
     top: 70%;
-    left: 15%;
+    left: 35px;
   }
   .cameron_t {
     top: 77%;
-    left: 15%;
+    left: 35px;
   }
   .second_three,
   .first_three {
@@ -1110,11 +1110,11 @@ th {
   }
   .cody {
     top: 200px;
-    left: 15%;
+    left: 35px;
   }
   .cody_t {
     top: 225px;
-    left: 15%;
+    left: 35px;
   }
   .f_img3 {
     position: absolute;
@@ -1125,19 +1125,25 @@ th {
     bottom: -925px;
   }
   .darrell {
-    top: 820px;
-    left: 50px;
+    top: 825px;
+    left: 35px;
   }
   .darrell_t {
-    top: 845px;
-    left: 50px;
+    top: 847px;
+    left: 35px;
   }
   .theresa {
     top: 850px;
-    left: 50px;
+    left: 35px;
   }
   .theresa_t {
     top: 875px;
-    left: 50px;
+    left: 35px;
+  }
+  .f_img2,
+  .f_img3,
+  .f_img5,
+  .f_img6 {
+    margin-left: 8px;
   }
 }
