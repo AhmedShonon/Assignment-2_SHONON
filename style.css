@@ -485,6 +485,19 @@ body {
   text-align: left;
   padding-left: 25px;
 }
+.height_2 {
+  border: none;
+  width: 285px;
+  height: 50px;
+  margin-left: 5px;
+  background-color: rgba(255, 255, 255, 0.141);
+  color: rgba(255, 255, 255, 0.658);
+  border-radius: 8px;
+  margin-left: 5px;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 25px;
+}
 .weight {
   height: 5px;
 }
@@ -1243,7 +1256,7 @@ hr.line {
     font-family: "Inter", sans-serif;
     color: #ffffff;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     /* border: 2px solid white; */
     width: 250px;
     margin-bottom: 5px;
@@ -1254,7 +1267,7 @@ hr.line {
     font-family: "Inter", sans-serif;
     color: #dfd3d38f;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     /* border: 2px solid green; */
     width: 320px;
     justify-content: center;
@@ -1359,6 +1372,7 @@ hr.line {
     margin-left: -35%;
     padding: 0px;
     height: 800px;
+    /* display: none; */
     /* border: none; */
   }
   .fit_get_started {
