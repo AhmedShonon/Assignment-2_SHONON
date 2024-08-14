@@ -539,6 +539,123 @@ td {
 th {
   background-color: #f2f2f2;
 }
+/* meet our team */
+.six_pics {
+  background-color: #444040d6;
+  border-radius: 16px;
+  padding: 32px;
+  padding-right: 55px;
+  height: 615px;
+  /* margin-top: 50px; */
+  width: 1040px;
+  /* border: 2px solid pink; */
+  /* margin-right: 10%; */
+  margin: 0 auto;
+}
+.f_img1,
+.f_img2,
+.f_img3,
+.f_img4,
+.f_img5,
+.f_img6 {
+  width: 300px;
+  height: 270px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 16px;
+}
+.first_three {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+}
+.jerome {
+  color: white;
+  position: absolute;
+  top: 66%;
+  left: 5%;
+}
+.jerome_t {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  color: rgba(176, 173, 173, 0.933);
+  font-weight: lighter;
+}
+.cameron {
+  color: white;
+  position: absolute;
+  top: 66%;
+  left: 38%;
+}
+.cameron_t {
+  color: rgba(176, 173, 173, 0.933);
+  font-weight: lighter;
+  position: absolute;
+  top: 73%;
+  left: 38%;
+}
+.darrell {
+  color: white;
+  position: absolute;
+  top: 66%;
+  left: 73%;
+}
+.darrell_t {
+  color: rgba(176, 173, 173, 0.933);
+  font-weight: lighter;
+  position: absolute;
+  top: 73%;
+  left: 73%;
+}
+.second_three {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.dianne {
+  color: white;
+  position: absolute;
+  top: 73%;
+  left: 6%;
+}
+
+.dianne_t {
+  position: absolute;
+  top: 80%;
+  left: 6%;
+  color: rgba(176, 173, 173, 0.933);
+  font-weight: lighter;
+}
+
+.cody {
+  color: white;
+  position: absolute;
+  top: 73%;
+  left: 38%;
+}
+.cody_t {
+  color: rgba(176, 173, 173, 0.933);
+  font-weight: lighter;
+  position: absolute;
+  top: 80%;
+  left: 38%;
+}
+.theresa {
+  color: white;
+  position: absolute;
+  top: 73%;
+  left: 73%;
+}
+.theresa_t {
+  color: rgba(176, 173, 173, 0.933);
+  font-weight: lighter;
+  position: absolute;
+  top: 80%;
+  left: 73%;
+}
+
 /* responsive design */
 @media screen and (max-width: 576px) {
   .right_nav {
@@ -904,5 +1021,126 @@ th {
   .bmi_calculator {
     /* border: 3px solid wheat; */
     margin-right: 150px;
+  }
+  .meet_team {
+    margin-top: 800px;
+  }
+  .bmi_title {
+    text-align: center;
+  }
+  .bmi_subtitle {
+    text-align: center;
+    /* border: 2px solid white; */
+    justify-content: center;
+    height: 100px;
+    width: 110%;
+    margin-left: 21px;
+  }
+  .first_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .second_three {
+    flex-direction: column;
+  }
+  .bmi_title2 {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    /* border: 2px solid white; */
+    width: 250px;
+    margin-bottom: 5px;
+    justify-content: center;
+    margin-left: 25px;
+  }
+  .bmi_subtitle2{
+     
+    font-family: "Inter", sans-serif;
+    color: #dfd3d38f;
+    font-weight: 450;
+    font-size: 16px;
+    /* border: 2px solid green; */
+    width: 300px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    text-align: center;
+    
+  }
+  }
+  .six_pics {
+    background-color: #444040d6;
+    border-radius: 16px;
+    padding: 32px;
+    padding-right: 55px;
+    height: 1250px;
+    /* margin-top: 50px; */
+    width: 290px;
+    /* border: 2px solid pink; */
+    /* margin-right: 10%; */
+    margin-left: -40px;
+  }
+  .f_img1,
+  .dianne,
+  .dianne_t {
+    display: none;
+  }
+  .f_img4,
+  .jerome,
+  .jerome_t {
+    display: none;
+  }
+  .cameron {
+    top: 70%;
+    left: 15%;
+  }
+  .cameron_t {
+    top: 77%;
+    left: 15%;
+  }
+  .second_three,
+  .first_three {
+    position: relative;
+  }
+
+  .f_img5 {
+    position: absolute;
+    top: -107%;
+  }
+  .cody {
+    top: 200px;
+    left: 15%;
+  }
+  .cody_t {
+    top: 225px;
+    left: 15%;
+  }
+  .f_img3 {
+    position: absolute;
+    top: 215%;
+  }
+  .f_img6 {
+    position: absolute;
+    bottom: -925px;
+  }
+  .darrell {
+    top: 820px;
+    left: 50px;
+  }
+  .darrell_t {
+    top: 845px;
+    left: 50px;
+  }
+  .theresa {
+    top: 850px;
+    left: 50px;
+  }
+  .theresa_t {
+    top: 875px;
+    left: 50px;
   }
 }
