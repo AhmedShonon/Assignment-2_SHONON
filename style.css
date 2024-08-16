@@ -990,7 +990,11 @@ hr.line {
     border-radius: 0.8rem;
     border: 1px solid rgba(255, 255, 255, 0.208);
     left: 60%;
-    top: 110%;
+    top: 630px;
+  }
+  .lst {
+    /* border: 2px solid white; */
+    margin-top: -30px;
   }
   .vd_t {
     font-size: small;
@@ -1005,6 +1009,9 @@ hr.line {
     width: 100%;
     gap: 15px;
   }
+  .vdo_tutor_child {
+    /* border: 2px solid white; */
+  }
 
   /* .download {
     width: 45%;
@@ -1016,6 +1023,34 @@ hr.line {
     font-size: 35px;
     /* border: 2px solid wheat; */
     margin-left: -45px;
+  }
+  .vdo_tutor {
+    /* border: 2px solid white; */
+    position: relative;
+    margin-top: 0px;
+    width: 200px;
+    padding-bottom: 25px;
+    top: -230px;
+    left: -40px;
+  }
+  .three {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+  }
+  .vd_t {
+    position: absolute;
+    top: 50px;
+  }
+  .vd_t2 {
+    position: absolute;
+    top: 45px;
+    /* border: 2px solid white; */
+    color: rgba(255, 255, 255, 0.519);
+    font-weight: 300;
+    font-size: 12.5px;
+    margin-left: 10px;
+    margin-top: 20px;
   }
   .sub_title {
     /* border: 2px solid white; */
