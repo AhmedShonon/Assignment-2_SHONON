@@ -352,7 +352,7 @@ body {
   text-align: left;
   font-size: 45px;
   /* border: 2px solid white; */
-  width: 40%;
+  width: 30%;
   margin-bottom: 5px;
 }
 .run_subtitle {
@@ -361,7 +361,25 @@ body {
   font-weight: 450;
   font-size: 16px;
   /* border: 2px solid green; */
-  width: 38%;
+  width: 45%;
+}
+.training_title {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: left;
+  font-size: 45px;
+  /* border: 2px solid white; */
+  width: 50%;
+  margin-bottom: 5px;
+  margin-top: 100px;
+}
+.training_subtitle {
+  font-family: "Inter", sans-serif;
+  color: #dfd3d38f;
+  font-weight: 450;
+  font-size: 16px;
+  /* border: 2px solid green; */
+  width: 60%;
 }
 .img_three_parent {
   position: relative;
@@ -375,6 +393,19 @@ body {
   right: 25%;
   top: 10%;
   margin: -10px 15px 15px 0px;
+  object-fit: none;
+  object-position: 70% 30%;
+}
+.img_three2 {
+  /* border: 2px solid pink; */
+  border-radius: 20px;
+  position: absolute;
+  height: 270px;
+  width: 250;
+  right: 25%;
+  top: 10%;
+  margin: -10px 15px 15px 0px;
+  display: none;
 }
 .join_now_two {
   width: 25%;
@@ -467,11 +498,7 @@ body {
 .age_sex {
   display: flex;
 }
-.chart {
-}
 
-.chart_table {
-}
 .height {
   border: none;
   width: 285px;
@@ -796,12 +823,13 @@ hr.line {
 .img_btn_track_app {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid rgba(210, 78, 78, 0.732);
+  border: 2px solid rgba(210, 78, 78, 0.732);
   background-color: #5f5f64b6;
   padding: 16px;
   width: 1140px;
   position: relative;
   border-radius: 16px;
+  height: 610px;
 }
 .last_img {
   width: 450px;
@@ -859,6 +887,12 @@ hr.line {
 }
 .bt_td {
   font-size: 20px;
+}
+.table2 {
+  color: white;
+  width: 700px;
+  margin-left: -125px;
+  /* border: 3px solid white; */
 }
 
 /* responsive design */
@@ -1061,6 +1095,15 @@ hr.line {
     width: 300px;
     right: -5%;
     top: -200px;
+    display: none;
+  }
+  .img_three2 {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    right: -5%;
+    top: -200px;
+    display: block;
   }
   .join_now_two {
     width: 95%;
@@ -1104,12 +1147,12 @@ hr.line {
   }
   .chart_calculator {
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     background-color: transparent;
     /* width: 3px; */
     margin-left: -200%;
     /* border: 3px solid rgb(170, 34, 34); */
-    height: 410px;
+
     /* margin-right: 5px; */
     position: absolute;
   }
@@ -1149,7 +1192,7 @@ hr.line {
     margin-left: -65px;
     margin-right: 7px;
     /* border: 3px solid white; */
-    height: 900px;
+    padding-bottom: 25px;
   }
   .calculator {
     margin-left: 0px;
@@ -1208,8 +1251,8 @@ hr.line {
   .btn_calculator {
     font-family: "Inter", sans-serif;
     display: block;
-    width: 260px;
-    height: 55px;
+    width: 220px;
+    height: 50px;
     border-radius: 2rem;
     background-color: #e6533c;
     color: #ffffff;
@@ -1217,10 +1260,9 @@ hr.line {
     font-size: 18px;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 0px;
-    margin-bottom: 40px;
   }
 
   .bmi_calculator {
@@ -1414,6 +1456,7 @@ hr.line {
     position: relative;
     border-radius: 16px;
     margin-left: -40px;
+    height: 1100px;
   }
   .last_img {
     width: 330px;
@@ -1422,7 +1465,7 @@ hr.line {
     filter: brightness(0.5);
     padding: 10px;
     margin-left: 1px;
-    border: 1px solid rgba(210, 78, 78, 0.732);
+    border: 1px solid #ea8a7b;
   }
   .c_btn {
     width: 280px;
@@ -1464,5 +1507,22 @@ hr.line {
     position: absolute;
     left: -55%;
     top: 10%;
+  }
+  .table2 {
+    width: 350px;
+    margin: 0px;
+    border: 2px solid #ea8a7b;
+  }
+  .table2,
+  th,
+  td {
+    border: 3px solid orangered;
+    text-align: center;
+  }
+  .table,
+  th,
+  td {
+    text-align: center;
+    border: 2px solid rgba(118, 113, 113, 0.42);
   }
 }
